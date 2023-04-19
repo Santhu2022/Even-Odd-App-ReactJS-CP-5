@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.main-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.app-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 50px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.Counter-text {
+    color: #0f172a;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+}
+.even-odd-text {
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 24px;
+}
+.button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px 22px 5px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+}
+.note-text {
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
